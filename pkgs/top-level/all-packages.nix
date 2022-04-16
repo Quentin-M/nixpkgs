@@ -357,6 +357,8 @@ with pkgs;
   eclipse-mat = callPackage ../development/tools/eclipse-mat { };
 
   evans = callPackage ../development/tools/evans { };
+ 
+  faq = callPackage ../development/tools/faq { };
 
   firefly-desktop = callPackage ../applications/misc/firefly-desktop { };
 
